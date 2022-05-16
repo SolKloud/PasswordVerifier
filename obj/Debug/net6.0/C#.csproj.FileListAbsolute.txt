@@ -13,3 +13,18 @@ D:\C#\obj\Debug\net6.0\refint\C#.dll
 D:\C#\obj\Debug\net6.0\C#.pdb
 D:\C#\obj\Debug\net6.0\C#.genruntimeconfig.cache
 D:\C#\obj\Debug\net6.0\ref\C#.dll
+D:\C# projects\PasswordVerifier\PasswordVerifier\bin\Debug\net6.0\C#.exe
+D:\C# projects\PasswordVerifier\PasswordVerifier\bin\Debug\net6.0\C#.deps.json
+D:\C# projects\PasswordVerifier\PasswordVerifier\bin\Debug\net6.0\C#.runtimeconfig.json
+D:\C# projects\PasswordVerifier\PasswordVerifier\bin\Debug\net6.0\C#.dll
+D:\C# projects\PasswordVerifier\PasswordVerifier\bin\Debug\net6.0\C#.pdb
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\C#.csproj.AssemblyReference.cache
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\C#.AssemblyInfoInputs.cache
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\C#.AssemblyInfo.cs
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\C#.csproj.CoreCompileInputs.cache
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\C#.dll
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\refint\C#.dll
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\C#.pdb
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\C#.genruntimeconfig.cache
+D:\C# projects\PasswordVerifier\PasswordVerifier\obj\Debug\net6.0\ref\C#.dll

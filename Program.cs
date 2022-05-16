@@ -2,51 +2,79 @@
 using System;     
 class Program    
 {    
-   static void Main()    
-   {    
-      //Inputing
-      string[] passWords = {"aX2#", "sed2T", "*v3X", "Ae234&B", "fg234", "g1HL","#1$23", "5a7%"};    
-      foreach(string passWord in passWords)    
-      {    
-         bool b = ValidatePassword(passWord);    
-         Console.WriteLine("'{0}' is{1} a valid password", passWord, b ? "": "n't");    
-      }    
-      Console.ReadKey();     
-   }    
-   static bool ValidatePassword(string passWord)    
-   {    
-      int validConditions = 0;     
-      foreach(char c in passWord)    
-      {    
-         if (c >= 'a' && c <= 'z')    
-         {    
-            validConditions++;    
-            break;    
-         }     
-      }     
-      foreach(char c in passWord)    
-      {    
-         if (c >= 'A' && c <= 'Z')    
-         {    
-            validConditions++;    
-            break;    
-         }     
-      }     
-      if (validConditions == 0) return false;     
-      foreach(char c in passWord)    
-      {    
-         if (c >= '0' && c <= '9')    
-         {    
-            validConditions++;    
-            break;    
-         }     
-      }     
-      if (validConditions == 1) return false;     
-      if(validConditions == 2)    
-      {    
-         char[] special = {'@', '#', '$', '%', '^', '&', '+', '='}; // or whatever    
-         if (passWord.IndexOfAny(special) == -1) return false;    
-      }     
-      return true;    
+    static  string password="soL44Sol";  
+   static void Main(string []args)       
+   {
+      // string password="solaris";     
+
+      //TO CHECK PASSWORD LENGTH
+      try{
+         if(password.Length<8){
+            throw new Exception("The password is less than 8 digits");
+         }
+         
+         ValidateNull();
+      }
+      catch(Exception e){
+         Console.WriteLine(e.Message);
+      }
+
+      //TO CHECH PASSWORD NULL OR NOT
+      static void  ValidateNull(){
+         try{
+           if(string.IsNullOrWhiteSpace(password)){
+            throw new Exception("The password cannot be null");
+           }
+         
+         ValidateDigit();
+      }
+      catch(Exception e){
+         Console.WriteLine(e.Message);
+      }
+      }
+
+         //TO CHECK PASSWORD CONTAINS DIGIT
+        static void  ValidateDigit(){
+         try{
+           if(!password.Any(char.IsDigit)){
+            throw new Exception("The password should have atleast one digit");
+           }
+         
+         ValidateUpper();
+      }
+      catch(Exception e){
+         Console.WriteLine(e.Message);
+      }
+      }
+
+      //TO CHECK IT CONTAINS UPPER CASE OR NOT
+        static void  ValidateUpper(){
+         try{
+           if(!password.Any(char.IsUpper)){
+            throw new Exception("The password should contain uppercase");
+           }
+         
+         ValidateLower();
+      }
+      catch(Exception e){
+         Console.WriteLine(e.Message);
+      }
+      }
+
+         //TO CHECK IT CONTAINS LOWER CASE OR NOT
+        static void  ValidateLower(){
+         try{
+           if(!password.Any(char.IsLower)){
+            throw new Exception("The password should contain lower case");
+           }
+         
+         Console.WriteLine("The password is valid");
+      }
+      catch(Exception e){
+         Console.WriteLine(e.Message);
+      }
+      }
+      
+
    }    
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\C#\\C#.csproj": {}
+    "D:\\C# projects\\PasswordVerifier\\PasswordVerifier\\C#.csproj": {}
   },
   "projects": {
-    "D:\\C#\\C#.csproj": {
+    "D:\\C# projects\\PasswordVerifier\\PasswordVerifier\\C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\C#\\C#.csproj",
+        "projectUniqueName": "D:\\C# projects\\PasswordVerifier\\PasswordVerifier\\C#.csproj",
         "projectName": "C#",
-        "projectPath": "D:\\C#\\C#.csproj",
+        "projectPath": "D:\\C# projects\\PasswordVerifier\\PasswordVerifier\\C#.csproj",
         "packagesPath": "C:\\Users\\solaris\\.nuget\\packages\\",
-        "outputPath": "D:\\C#\\obj\\",
+        "outputPath": "D:\\C# projects\\PasswordVerifier\\PasswordVerifier\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\solaris\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,8 @@
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
